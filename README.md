@@ -1,6 +1,13 @@
-# 🌌 Essenciarabe
+# Essenciarabe
 
 **Essenciarabe** is a premium perfume catalog built with [Astro](https://astro.build/). Designed with a minimalist, inspired by Apple's design, it focuses on showcasing luxury fragrances through elegant typography, glassmorphism, and smooth interactive experiences.
+
+## 🌌 Web Design
+
+**Examples**
+![](public/web/2.png)
+![](public/web/1.png)
+
 
 ## ✨ Key Features
 
