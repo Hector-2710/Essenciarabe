@@ -50,14 +50,9 @@ src/
 ├── pages/              # Route pages
 ├── store/              # Nanostores for state management
 │   └── cartStore.ts    # Cart state and logic
-└── styles/             # Global styles
+└── styles/             # Global styles    
     └── global.css
 ```
 
-## �🔄 Recent Updates (v2.0.0)
-
-- **home improvements**: The homepage was modified to be of the newsletter type
-
----
 
 *Designed with a passion for perfumery and digital excellence.*
