@@ -9,7 +9,6 @@ const perfumes = defineCollection({
         image: z.string(),
         description: z.string().optional(),
         available: z.boolean().default(true),
-        stock: z.number().default(0),
     }),
 });
 
@@ -22,7 +21,6 @@ const decants = defineCollection({
         image: z.string(),
         description: z.string().optional(),
         available: z.boolean().default(true),
-        stock: z.number().default(0),
     }),
 });
 

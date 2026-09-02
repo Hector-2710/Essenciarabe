@@ -14,7 +14,7 @@ const perfumes = await getCollection("decants");
         <h2 class="text-4xl font-semibold text-[#1d1d1f] mb-6">
             Nuestros Decants
         </h2>
-        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div class="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {
                 perfumes.map((perfume) => (
                     <PerfumeCard
@@ -25,7 +25,6 @@ const perfumes = await getCollection("decants");
                         image={perfume.data.image}
                         description={perfume.data.description}
                         available={perfume.data.available}
-                        stock={perfume.data.stock}
                     />
                 ))
             }

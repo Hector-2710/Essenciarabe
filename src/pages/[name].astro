@@ -37,7 +37,7 @@ export async function getStaticPaths() {
 }
 
 const { data, category } = Astro.props;
-const { id, name, brand, price, image, description, available, stock } = data;
+const { id, name, brand, price, image, description, available } = data;
 ---
 
 <Layout title={`${name} | Essenciarabe`}>
@@ -143,20 +143,6 @@ const { id, name, brand, price, image, description, available, stock } = data;
                         >
                             {available ? "Agregar al carrito" : "Próximamente"}
                         </button>
-                    </div>
-
-                    <div
-                        class="grid grid-cols-2 gap-6 pt-8 border-t border-[#e5e5e7]"
-                    >
-                        <div class="flex flex-col gap-1">
-                            <span
-                                class="text-[0.8rem] text-[#86868b] uppercase font-semibold tracking-wider"
-                                >Disponibilidad</span
-                            >
-                            <span class="font-semibold text-[#1d1d1f]"
-                                >{stock} unidades</span
-                            >
-                        </div>
                     </div>
                 </div>
             </div>
